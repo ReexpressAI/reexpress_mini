@@ -1,0 +1,56 @@
+# macOS and local JetBrains/PyCharm files
+.DS_Store
+._*
+.idea/
+
+# Python bytecode, package metadata, and build output
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+/build/
+/dist/
+/release-dist/
+/wheels/
+*.whl
+*.egg
+
+# Local Python environments
+/.venv/
+/.venv-*/
+/venv/
+/env/
+
+# Tool caches and test reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+/htmlcov/
+/coverage.xml
+
+# User-specific configuration and credentials; keep the public example.
+mcp_settings.json
+!mcp_settings.example.json
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.pypirc
+
+# Local model downloads, scored predictions, logs, and Hugging Face cache.
+# These are user data, not part of the source distribution.
+/models/
+/archives/
+/logs/
+/.cache/
+
+# Keep source, tests, small JSON/JSONL fixtures, documentation, LICENSE,
+# configuration examples, and dependency constraints/lockfiles tracked.
